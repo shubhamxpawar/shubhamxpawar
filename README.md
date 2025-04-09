@@ -23,7 +23,9 @@
 
 # Languages And Tools
 
-![JS](https://img.shields.io/badge/Javascript-blue?style=for-the-badge&logo=javascript&color=grey) ![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css&color=blue) ![React](https://img.shields.io/badge/react-white?style=for-the-badge&logo=react&logoColor=white&color=red) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C++-White?style=for-the-badge&logo=cplusplus) ![HTML5](https://img.shields.io/badge/HTML5-gray?style=for-the-badge&logo=html5&logoColor=white)
+![JS](https://img.shields.io/badge/Javascript-blue?style=for-the-badge&logo=javascript&color=grey) 
+![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css&color=blue) 
+![React](https://img.shields.io/badge/react-white?style=for-the-badge&logo=react&logoColor=white&color=red) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C++-White?style=for-the-badge&logo=cplusplus) ![HTML5](https://img.shields.io/badge/HTML5-gray?style=for-the-badge&logo=html5&logoColor=white)
 
 
         
