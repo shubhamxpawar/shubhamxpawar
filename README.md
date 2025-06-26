@@ -4,7 +4,7 @@
 
 ### 😄 I make some stuff and post it here
 
-### 💻 Currently learning: ```React```
+### 💻 Currently learning: ```Backend```
 
 
 ---
