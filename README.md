@@ -1,16 +1,25 @@
-## Hi there 👋
+<h1>Hi there 👋, This is Shubham Pawar</h1>
 
-## ```This is Shubham Pawar```
+<h3 align="left">
+  A full stack developer based in Pune, Maharashtra
+</h3> <br>
 
-### 😄 I make some stuff and post it here
+<img alt="coding" width=400 align="right" src="https://camo.githubusercontent.com/2366b34bb903c09617990fb5fff4622f3e941349e846ddb7e73df872a9d21233/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" />
 
-### 💻 Currently learning: ```Backend```
-
+<img
+    src="https://komarev.com/ghpvc/?username=shubhamxpawar&label=Profile%20views&color=0e75b6&style=flat"
+    alt="shubhamxpawar "
+/>
+        
+<span align="left">
+        <h3>😄 I make some stuff and post it here</h3> 
+        <h3>💻 Currently learning: <code>Backend</code> </h3>         
+</span>
 
 ---
 
 ### Find me on : 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shubham.__2006) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shubhamxpawar) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Shubhamxpawar) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shubham.__2006) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shubhamxpawar) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Shubhamxpawar) [![Leetcode user og_shubh](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fog_shubh&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/og_shubh/)
 
 
 ---
@@ -34,5 +43,12 @@
 ![HTML5](https://img.shields.io/badge/HTML5-gray?style=for-the-badge&logo=html5&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
+---
+
+<img src="https://github-readme-stats.vercel.app/api?username=shubhamxpawar&theme=dark&hide_border=false&include_all_commits=false&count_private=false">
+
+---
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=shubhamxpawar&theme=dark&hide_border=false" alt="streak">
 
         
