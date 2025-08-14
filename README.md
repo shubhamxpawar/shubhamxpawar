@@ -21,7 +21,6 @@
 ### Find me on : 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shubham.__2006) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shubhamxpawar) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Shubhamxpawar) [![Leetcode user og_shubh](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fog_shubh&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/og_shubh/)
 
-
 ---
 
 [![My Contrubutions](https://github-readme-activity-graph.vercel.app/graph?username=shubhamxpawar&theme=github-dark-dimmed)](https://github.com/shubhamxpawar/github-readme-activity-graph)
@@ -42,6 +41,8 @@
 ![C++](https://img.shields.io/badge/C++-White?style=for-the-badge&logo=cplusplus) 
 ![HTML5](https://img.shields.io/badge/HTML5-gray?style=for-the-badge&logo=html5&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ---
 
