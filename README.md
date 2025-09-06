@@ -33,16 +33,19 @@
 
 # Languages And Tools
 
-![JS](https://img.shields.io/badge/Javascript-blue?style=for-the-badge&logo=javascript&color=grey) 
-![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css&color=blue) 
-![React](https://img.shields.io/badge/react-white?style=for-the-badge&logo=react&logoColor=white&color=red) 
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
-![C++](https://img.shields.io/badge/C++-White?style=for-the-badge&logo=cplusplus) 
 ![HTML5](https://img.shields.io/badge/HTML5-gray?style=for-the-badge&logo=html5&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+![CSS](https://img.shields.io/badge/css-red?style=for-the-badge&logo=css&color=blue) 
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+![JS](https://img.shields.io/badge/Javascript-blue?style=for-the-badge&logo=javascript&color=grey) 
+![C++](https://img.shields.io/badge/C++-White?style=for-the-badge&logo=cplusplus)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![ExpressJS](https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/react-white?style=for-the-badge&logo=react&logoColor=white&color=red) 
+![NodeJS](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=Pydantic&logoColor=white)
 
 ---
 
