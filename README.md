@@ -27,10 +27,6 @@
 
 ---
 
-<img align="center" alt="top langs" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=shubhamxpawar&layout=compact&theme=tokyonight" /><a href = "https://github.com/shubhamxpawar/github-readme-stats"></a>
-
----
-
 # Languages And Tools
 
 ![HTML5](https://img.shields.io/badge/HTML5-gray?style=for-the-badge&logo=html5&logoColor=white)
@@ -51,10 +47,6 @@
 [![Cursor](https://custom-icon-badges.demolab.com/badge/Cursor-000000?logo=cursor-ai-white)](#)
 ![codesandbox](https://img.shields.io/badge/Codesandbox-000000?style=for-the-badge&logo=CodeSandbox&logoColor=white)
 ![githubcopilot](https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
-
----
-
-<img src="https://github-readme-stats.vercel.app/api?username=shubhamxpawar&theme=dark&hide_border=false&include_all_commits=false&count_private=false">
 
 ---
 
