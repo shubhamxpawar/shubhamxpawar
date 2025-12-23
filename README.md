@@ -23,6 +23,10 @@
 
 ---
 
+![](./profile-3d-contrib/profile-green-animate.svg)
+
+---
+
 [![My Contrubutions](https://github-readme-activity-graph.vercel.app/graph?username=shubhamxpawar&theme=github-dark-dimmed)](https://github.com/shubhamxpawar/github-readme-activity-graph)
 
 ---
