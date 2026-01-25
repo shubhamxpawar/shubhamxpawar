@@ -69,9 +69,11 @@
 
 ---
 
+<!--
 <div align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=shubhamxpawar&theme=dark&hide_border=false" alt="streak">
 </div>
+-->
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
