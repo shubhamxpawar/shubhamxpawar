@@ -44,6 +44,8 @@
   />
 </p>
 
+<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shubhamxpawar&theme=github_dark" />
+
 ---
 
 ## Tech Stack
