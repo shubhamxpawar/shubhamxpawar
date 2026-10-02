@@ -1,33 +1,38 @@
 ![Hey typed effect](https://readme-typing-svg.herokuapp.com?font=Caveat&weight=600&size=28&color=ffdf87&pause=1000&width=435&lines=Hey+there+👋🏻%2C+This+is+Shubham+pawar+!)  
 
 <h3 align="left">
-  A full stack developer based in Pune, Maharashtra
+  Full stack dev | Exploring GenAI & Agents | Pune 
 </h3> 
 
-<img
-    src="https://komarev.com/ghpvc/?username=shubhamxpawar&label=Profile%20views&color=0e75b6&style=flat"
-    alt="shubhamxpawar "
-/>
+---
 
-<span align="left">
-        <h3>😄 I make some stuff and post it here</h3> 
-        <h3>💻 Currently learning: <code> AI systems and agents </code> </h3>         
-</span>
-
-### Find me on : 
-<div>
-  <a href="https://www.linkedin.com/in/shubhamxpawar" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/shubhamxpawar" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://leetcode.com/u/og_shubh/" target="_blank">
-    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fshubhamxpawar&logo=leetcode&logoColor=yellow"/>
-  </a>
+<h2> About </h2>
+<div align="left">
+        <div> I ♥️ OSS and linux </div> 
+        <div> Learning by shipping - APIs, Websites, and projects built from scratch </div>    
+        <div> I spend my weekends attending hackathons and tech meetups </div>
 </div>
 
-<br>
+---
+
+<h2> Socials </h4> 
+<div>
+    
+  [![Portfolio](https://custom-icon-badges.demolab.com/badge/Portfolio-000000?style=for-the-badge&logo=globe&logoColor=white)](https://shubhamxpawar.me/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/shubhamxpawar/)
+  [![LeetCode](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fshubhamxpawar&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/shubhamxpawar/)
+  [![Mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhamxpawar27@gmail.com)
+  [![Cal.com](https://img.shields.io/badge/Cal.com-292929?style=for-the-badge&logo=caldotcom&logoColor=white)](https://cal.com/shubhamxpawar)
+
+  ---
+
+  <img
+    src="https://komarev.com/ghpvc/?username=shubhamxpawar&label=Profile%20views&color=0e75b6&style=flat"
+    alt="shubhamxpawar"
+    aligh="right"
+  />
+  
+</div>
 
 ---
 
