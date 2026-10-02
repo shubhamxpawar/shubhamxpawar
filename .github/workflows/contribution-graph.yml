@@ -1,0 +1,153 @@
+name: Generate Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import json
+          import urllib.request
+          from datetime import datetime, timedelta
+
+          username = "shubhamxpawar"
+          token = os.environ["GH_TOKEN"]
+
+          query = """
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                      contributionLevel
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          today = datetime.utcnow()
+          one_year_ago = today - timedelta(days=365)
+
+          variables = {
+              "login": username,
+              "from": one_year_ago.isoformat() + "Z",
+              "to": today.isoformat() + "Z"
+          }
+
+          payload = json.dumps({
+              "query": query,
+              "variables": variables
+          }).encode()
+
+          request = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=payload,
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              data = json.load(response)
+
+          weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+          # GitHub-like grayscale palette.
+          # Level 0 = no contributions
+          colors = {
+              "NONE": "#161616",
+              "FIRST_QUARTILE": "#3A3A3A",
+              "SECOND_QUARTILE": "#666666",
+              "THIRD_QUARTILE": "#999999",
+              "FOURTH_QUARTILE": "#E5E5E5"
+          }
+
+          cell_size = 12
+          cell_gap = 3
+          step = cell_size + cell_gap
+
+          width = len(weeks) * step
+          height = 7 * step
+
+          svg = []
+
+          svg.append(
+              f'<svg xmlns="http://www.w3.org/2000/svg" '
+              f'width="{width}" height="{height}" '
+              f'viewBox="0 0 {width} {height}">'
+          )
+
+          for x, week in enumerate(weeks):
+              for day in week["contributionDays"]:
+                  weekday = day["date"]
+                  date_obj = datetime.strptime(weekday, "%Y-%m-%d")
+
+                  y = date_obj.weekday()
+                  color = colors.get(
+                      day["contributionLevel"],
+                      colors["NONE"]
+                  )
+
+                  svg.append(
+                      f'<rect x="{x * step}" '
+                      f'y="{y * step}" '
+                      f'width="{cell_size}" '
+                      f'height="{cell_size}" '
+                      f'rx="2" '
+                      f'fill="{color}">'
+                  )
+
+                  svg.append(
+                      f'<title>{day["date"]}: '
+                      f'{day["contributionCount"]} contributions</title>'
+                  )
+
+                  svg.append("</rect>")
+
+          svg.append("</svg>")
+
+          os.makedirs("assets", exist_ok=True)
+
+          with open(
+              "assets/contribution-graph.svg",
+              "w",
+              encoding="utf-8"
+          ) as file:
+              file.write("\n".join(svg))
+
+          PY
+
+      - name: Commit graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/contribution-graph.svg
+
+          git diff --cached --quiet || \
+            git commit -m "chore: update contribution graph"
+
+          git push
