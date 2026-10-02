@@ -32,7 +32,11 @@
 ---
 
 <p align="center">
-  <img src="./assets/contributions.svg" width="100%">
+  <img
+    src="./assets/contribution-graph.svg"
+    alt="GitHub Contribution Graph"
+    width="100%"
+  />
 </p>
 
 ---
